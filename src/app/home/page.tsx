@@ -16,7 +16,8 @@ export default function page({}: Props) {
     
     //! to fix
     //! book size +  book button position and size
-    //! 
+    //  on deployment the button and the footer of the video are under the video
+    //! z pos of button and footer of video 
 
   
     
@@ -43,7 +44,7 @@ export default function page({}: Props) {
             <div className='w-1/2 h-[889px] flex flex-col items-center'>
                 <Video /> 
                 <button
-                 className='-mt-[130px] h-[59px] w-[209px] px-2 justify-center items-center bg-orange-400 border-2 rounded-none z-15' 
+                 className='-mt-[130px] h-[59px] w-[209px] px-2 justify-center items-center bg-orange-400 border-2 rounded-none z-20' 
                  >
                     What We Do
                  </button>

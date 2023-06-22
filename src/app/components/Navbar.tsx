@@ -7,6 +7,9 @@ import Link from 'next/link'
 
 type Props = {}
 
+//* to do
+//* Change color on selected page
+
 
 function Navbar({}: Props) {
     type isActive = '/' | '/home' | '/about' | '/case-studies'  | '/the-book' | '/work-with-us' | '/services' | '/masterclass' 
