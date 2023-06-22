@@ -8,18 +8,38 @@ import Footer from '../components/Footer'
 type Props = {}
 
 export default function page({}: Props) {
-    const [isMobile,setIsMobile] = useState(false)
-    // window.innerWidth > 1024 ?  setIsMobile(false) :  setIsMobile(true);
+    
+    
+    //*To do
+    //* breakpoints : xs: 0;sm: 576px;md: 768px;lg: 992px;xl: 1200px;
+    //* add X svg with animation and to check timings
+    
+    //! to fix
+    //! book size +  book button position and size
+    //! 
+
   
-    console.log(isMobile)
+    
 
   return (
     <>
     <div className='h-full w-full'>
         <div className='  flex  flex-row mt-0 '>
-            <div className='w-1/2 bg-cyan-200 h-[889px] text-center flex justify-center items-center'>   
-            <p>1L</p>
+            <div className='w-1/2 bg-cyan-200 flex-col h-[889px] text-center flex justify-center items-center z-0 '>   
+             
+                <div className=' flex '>                    
+                        <h1 className='flex text-[120px] flex-col  h-[216px] w-[566px]'>You have 3 seconds. </h1>
+                        <h3>How will you stand out?</h3>
+                </div>
+                
+                <button
+                 className=' h-[59px] w-[209px] px-2 justify-center  bg-orange-400 border-none rounded-none z-15' 
+                 >
+                    Learn More
+                 </button>
+                 
             </div>
+
             <div className='w-1/2 h-[889px] flex flex-col items-center'>
                 <Video /> 
                 <button
