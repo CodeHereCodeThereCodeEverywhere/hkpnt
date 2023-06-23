@@ -35,7 +35,7 @@ function Navbar({}: Props) {
             <Link href='/the-book' className=' hover:text-[#FF0301] px-[30px] '>The Book</Link>
             <Link href='/blag_target' className=' hover:text-[#FF0301] px-[30px] '>Blog</Link>
             {/* <a href='/masterclass' className=' hover:text-[#FF0301]'>Masterclass</a> */}
-            <Link href='/work-with-us' className=' hover:text-[#FF0301] pl-[15px]'>Work With us</Link>
+            <Link href='/apply' className=' hover:text-[#FF0301] pl-[15px]'>Work With us</Link>
             </div>
             
            
