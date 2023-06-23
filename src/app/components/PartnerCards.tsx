@@ -8,7 +8,7 @@ function PartnerCards({}: Props) {
   return (
     <>
     {imageData.map((item)=>(
-        <div id={item.id}>
+        <div key={item.id}>
             <Link href={item.path}>
          <img src={item?.image} alt={item.name} className='w-[238px] h-[222px]'  />
          </Link>
