@@ -5,19 +5,13 @@
 
 
 
-    #gradient-hover-effect {
-        display: flex;
-        padding: 0.875em 2em;
-        background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
-        font-family: inherit;
-        color: #fff;
-        text-decoration: none;
-        transition: background-color 1s;
-        place-content: center;
-      }
-      .gradient-hover-effect:hover, .gradient-hover-effect:focus {
-        background-color: #e91e63;
-        color: #fff;
-      }
 
-
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
